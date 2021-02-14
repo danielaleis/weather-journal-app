@@ -1,0 +1,156 @@
+body {
+    background: #fffff8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 100vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+}
+
+#app {
+    display: grid;
+    grid-auto-rows: minmax(150px);
+    grid-template-columns: auto;
+    padding: 20px 20px 100px 20px;
+    height: auto;
+    background: rgb(100, 100, 219);
+    border-radius: 8px;
+    color: white;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.holder {
+    display: grid;
+    grid-auto-rows: auto;
+    border-radius: 5px;
+}
+
+.entry {
+    background: rgba(59, 74, 107, .4);
+}
+
+#entryHolder {
+    background: rgb(236, 115, 236);
+    border-radius: 10px;
+    text-align: center;
+    margin: 25px 10px 25px 10px;
+}
+
+#date {
+    margin: 30px 0px 10px 0px;
+}
+
+#temp {
+    margin: 10px 10px 10px 0px;
+
+}
+
+#tempFeels {
+    margin: 10px 10px 10px 0px;
+}
+
+
+#content {
+    margin: 10px 0px 10px 0px;
+
+}
+
+.headline {
+    font-size: 2em;
+    margin: 30px 0px 10px 0px;
+    text-decoration: underline;
+}
+
+.title {
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label {
+    display: block;
+    font-size: 27px;
+}
+
+input {
+    display: block;
+    height: 30px;
+    width: 320px;
+    background: rgb(236, 115, 236);
+    ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    background: WHITE;
+    color: rgb(167, 57, 72);
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 4px 5px #444;
+}
+
+button:hover {
+    background-color: rgb(236, 115, 236);
+}
+
+h1 {
+    font-size: 75px;
+}
+
+textarea {
+    background: rgb(236, 115, 236);
+    ;
+    color: white;
+    margin: 10px 0px 10px 0px;
+    border: none;
+    width: 320px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+/* Style for Placeholder Text*/
+::placeholder {
+    /* Firefox, Chrome, Opera */
+    color: rgb(167, 57, 72);
+    font-family: 'Oswald', sans-serif;
+
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(167, 57, 72)3a;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(167, 57, 72)a;
+    font-family: 'Oswald', sans-serif;
+
+}
